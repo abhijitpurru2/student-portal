@@ -1,10 +1,10 @@
-package com.student.studentportal;
+package com.project.database;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StudentPortalApplicationTests {
+class DatabaseApplicationTests {
 
 	@Test
 	void contextLoads() {

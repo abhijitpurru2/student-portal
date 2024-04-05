@@ -1,4 +1,4 @@
-package com.student.studentportal;
+package com.project.studentportal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +8,6 @@ public class StudentPortalApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StudentPortalApplication.class, args);
-		System.out.println("Connected!");
 	}
 
 }
