@@ -33,5 +33,4 @@ public class user_roles {
     public void setName(String name) {
         this.name = name;
     }
-    
 }

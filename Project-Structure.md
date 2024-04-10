@@ -24,14 +24,6 @@
         * homeStudent.jsx
         * homeTeacher.jsx
         * homeAdmin.jsx
-    * /grades
-        * grades.jsx
-        * newGrades.jsx
-    * /courses
-        * courses.jsx
-        * newCourse.jsx
-    * /account
-        * account.jsx
     * /ui
         * menuBar.jsx
         * footer.jsx
