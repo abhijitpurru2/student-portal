@@ -1,23 +1,22 @@
-package com.project.database.entities;
+package com.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class roles {
+public class Role {
 
 	@Id
-	private String role_id;
+	private String roleId;
 
     private String name;
 
-
-    public String getRoleID() {
-        return role_id;
+    public String getRoleId() {
+        return roleId;
     }
 
-    public void setRoleID(String id) {
-        this.role_id = id;
+    public void setRoleId(String roleId) {
+        this.roleId = roleId;
     }
 
     public String getName() {
@@ -27,5 +26,4 @@ public class roles {
     public void setName(String name) {
         this.name = name;
     }
-    
 }
