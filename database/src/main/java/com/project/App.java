@@ -1,4 +1,4 @@
-package com;
+package com.project;
 
 /**
  * Hello world!
