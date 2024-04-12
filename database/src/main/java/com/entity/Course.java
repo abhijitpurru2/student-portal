@@ -1,15 +1,20 @@
 package com.entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "courses")
 public class Course {
 
 	@Id
+    @Column(name="course_id", nullable = false)
 	private String courseId;
 
     private String name;
+    @Column(name="year_applied", nullable = false)
     private Integer yearApplied;
     private Integer duration;
     private Integer credits;

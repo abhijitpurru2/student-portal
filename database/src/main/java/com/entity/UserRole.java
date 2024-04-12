@@ -1,19 +1,18 @@
 package com.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "user_roles")
 public class UserRole {
 
     @ManyToOne
     @JoinColumn(name = "role_id")
+    @Column(name="role_id", nullable = false)
 	private Role roleId;
 
     @ManyToOne
+    @Column(name="user_id", nullable = false)
     @JoinColumn(name = "user_id")
     private User userId;
 
