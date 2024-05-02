@@ -16,21 +16,12 @@
       
   <properties>
     <java.version>17</java.version>
-    <javax.persistence.version>2.2</javax.persistence.version>
     <junit.version>4.13.2</junit.version>
     <org.postgresql.version>42.7.3</org.postgresql.version>
     <spring.boot.starter.jdbc.version>3.2.4</spring.boot.starter.jdbc.version>
     <spring.boot.starter.data.jpa.version>3.2.4</spring.boot.starter.data.jpa.version>
   </properties>
 
-  <dependencies>
-    <!--    <dependency>-->
-    <!--      <groupId>org.springframework.boot</groupId>-->
-    <!--      <artifactId>spring-boot-starter-test</artifactId>-->
-    <!--      <scope>test</scope>-->
-    <!--    </dependency>-->
-  </dependencies>
-      
   <build>
     <plugins>
       <plugin>
